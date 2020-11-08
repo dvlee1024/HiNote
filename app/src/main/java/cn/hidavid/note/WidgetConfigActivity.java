@@ -41,6 +41,7 @@ public class WidgetConfigActivity extends AppCompatActivity {
         }
 
         etContent = findViewById(R.id.etContent);
+        etContent.setHint("请输入OK");
     }
 
     public void onClickBtn(View view) {

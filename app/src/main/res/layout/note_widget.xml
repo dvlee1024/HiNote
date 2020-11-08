@@ -44,4 +44,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"/>
+
+<!--    <ViewFlipper-->
+<!--        android:id="@+id/vFlipper"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:autoStart="true"-->
+<!--        android:flipInterval="60000">-->
+
+        <ImageView
+            android:id="@+id/ivPainting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+<!--    </ViewFlipper>-->
 </RelativeLayout>
